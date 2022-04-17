@@ -1,0 +1,13 @@
+import datetime   #导入日期时间类
+#定义一个表
+mot =["1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+]
+day =datetime.datetime.now().weekday()         #获取当前时间]
+
+print(mot[day])
